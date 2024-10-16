@@ -1,0 +1,30 @@
+name: burganbank_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/burgan_logo.jpg"  
